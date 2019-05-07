@@ -1,0 +1,6 @@
+{
+  "name": "warp",
+  "version": "0.1.0",
+  "description": "File manipulation across terminals sessions made easy",
+  "scripts": [ "warp.sh" ]
+}
