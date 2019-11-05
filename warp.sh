@@ -68,3 +68,9 @@ function warp {
   esac
 }
 
+if [[ ${BASH_SOURCE[0]} != $0 ]]; then
+  export -f warp
+else
+  warp "${@}"
+  exit $?
+fi
